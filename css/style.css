@@ -449,7 +449,7 @@ address {
 /* Media queries */
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
+/* @media only screen and (max-width : 992px) {
 
 	.team-member {
 		width: 50%;
@@ -467,7 +467,7 @@ address {
 
 }
 
-/* Small Devices, Tablets */
+Small Devices, Tablets
 @media only screen and (max-width : 768px) {
 
 	header {
@@ -520,7 +520,7 @@ address {
 
 }
 
-/* Extra Small Devices, Phones */
+Extra Small Devices, Phones
 @media only screen and (max-width : 480px) {
 
 	.header-nav li {
@@ -546,4 +546,4 @@ address {
 		padding: 10px;
 	}
 
-}
+} */
