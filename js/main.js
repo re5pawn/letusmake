@@ -15,21 +15,21 @@ $(document).ready(function() {
 
 	// h2 and .section-description animation
 
-	function headingAndDescrAnimation(selector, animation) {
-		$(selector).on('mouseenter', function() {
-			$(selector + ' h2').addClass('animated ' + animation);
-			$(selector + ' .section-description').addClass('animated ' + animation);
-		});
+	// function headingAndDescrAnimation(selector, animation) {
+	// 	$(selector).on('mouseenter', function() {
+	// 		$(selector + ' h2').addClass('animated ' + animation);
+	// 		$(selector + ' .section-description').addClass('animated ' + animation);
+	// 	});
 
-		$(selector).on('mouseleave', function() {
-			$(selector + ' h2').removeClass('animated ' + animation);
-			$(selector + ' .section-description').removeClass('animated ' + animation);
-		});
-	}
+	// 	$(selector).on('mouseleave', function() {
+	// 		$(selector + ' h2').removeClass('animated ' + animation);
+	// 		$(selector + ' .section-description').removeClass('animated ' + animation);
+	// 	});
+	// }
 
-	headingAndDescrAnimation('.portfolio', 'slideInDown');
-	headingAndDescrAnimation('.team', 'slideInDown');
-	headingAndDescrAnimation('.contact', 'slideInDown');
+	// headingAndDescrAnimation('.portfolio', 'slideInDown');
+	// headingAndDescrAnimation('.team', 'slideInDown');
+	// headingAndDescrAnimation('.contact', 'slideInDown');
 
 	// Add hover effects
 
